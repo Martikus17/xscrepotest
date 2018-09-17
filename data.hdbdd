@@ -1,0 +1,8 @@
+namespace gitrepotest;
+@Schema: 'SCHEMA' 
+context data {
+   type myKeyType: String(60);
+   Entity myEntity{
+       key myID: myKeyType;
+   };
+};
