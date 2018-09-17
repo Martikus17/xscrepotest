@@ -4,5 +4,7 @@ context data {
    type myKeyType: String(60);
    Entity myEntity{
        key myID: myKeyType;
+       newColumn: String(100);
+       newNewColumn: String(100);
    };
 };
